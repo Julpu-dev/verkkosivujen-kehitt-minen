@@ -1,0 +1,84 @@
+body {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+
+
+header {
+    background-color: rgba(76, 35, 35, 0.351);
+    padding: 15px;
+    
+
+
+}
+
+#otsikko1 {
+    text-align: center;
+
+}
+
+.link-container {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(76, 35, 35, 0.351);
+    padding-bottom: 30px;
+    
+}
+
+
+
+
+#vertikaalinen {
+    float: left;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(76, 35, 35, 0.351);
+    height: 105px;
+    
+
+}
+
+#hämis {
+    border-style: solid;
+    border-color: rgba(76, 35, 35, 0.351);
+    background-color: rgba(58, 28, 28, 0.421);
+    width: 1118px;
+    height: 219px;
+    float: right;
+    padding: 40px
+    
+
+    
+}
+
+footer {
+    background-color: rgba(76, 35, 35, 0.351);
+    text-align: center;
+    clear: both;
+    padding: 15px;
+}
+
+
+a:link {
+    color: #02023a;
+  }
+  a:visited {
+    color: #272149;
+  }
+  a:focus {
+    color: #ff0000;
+  }
+  a:hover {
+    color: #cc0000;
+  }
+  a:active {
+    color: #ff0000;
+  }
+
+ 

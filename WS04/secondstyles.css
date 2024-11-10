@@ -1,0 +1,56 @@
+body {
+    background-image:url("images/tausta.jpg") ;
+    margin: 0%;
+    padding: 100px;
+    
+}
+
+h1 {
+    font-size: 20px;
+    border-style: solid;
+    padding: 40px
+    
+
+}
+
+p {
+    font-size: 12px;
+    color: lightgrey;
+    
+    
+}
+
+
+
+div {
+    border: 2px dotted;
+    width: 100px;
+    height: 100px;
+    
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-alpha;
+}
+
+a {
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+
+
+}
+
+figcaption {
+    border: 2px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    background-color: rgb(241, 144, 233);
+    padding: 10px;
+}

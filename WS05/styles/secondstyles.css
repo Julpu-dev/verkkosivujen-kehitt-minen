@@ -1,0 +1,91 @@
+header {
+    background-color: rgb(60, 20, 82);
+    text-align: center;
+    border-style: solid;
+    border-color:  rgb(76, 15, 77);
+    
+}
+h1 {
+    color: azure;
+}
+
+nav {
+    background-color: rgb(106, 43, 119);
+    text-align: center;
+    border-style: solid;
+    border-color:  rgb(76, 15, 77);
+    display: flex;
+    justify-content: center;
+   
+}
+
+a {
+    padding: 10px;
+}
+
+body {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }  
+
+section, article {
+    float: left;
+        position: relative;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto; 
+        background-color: rgb(127, 42, 129);
+        border-style: solid;
+        border-color: rgb(76, 15, 77);
+        padding: 8%;
+        color: azure;
+    }
+
+
+
+aside {
+    
+     position: absolute;
+     top: 19%;
+     right: 30%;
+     text-align: center;
+     width: 7%;
+     height: 50%;
+     background-color: rgb(127, 42, 129);
+     border-style: solid;
+     border-color: rgb(76, 15, 77);
+     padding: 3%;
+     color: azure;
+     
+    }
+   
+   
+     footer {
+        text-align: center;
+        background-color: rgb(60, 20, 82);
+        border-style: solid;
+        border-color: rgb(76, 15, 77);
+        padding: 4%;
+        position: relative;
+        clear: both;
+        color: azure;
+    }
+
+
+    a:link {
+        color: #f0079a;
+      }
+      a:visited {
+        color: #ff0707;
+      }
+      a:focus {
+        color: #00eeff;
+      }
+      a:hover {
+        color: #0acc00;
+      }
+      a:active {
+        color: #e3ee09;
+      }

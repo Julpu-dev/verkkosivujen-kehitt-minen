@@ -1,0 +1,17 @@
+body {
+color: rgb(0, 0, 0);
+background-color: rgb(240, 113, 168);
+font font-family: "Arial";           
+}
+
+p {
+    font-size: :20px;
+}
+
+.btn {
+    background-color: black;
+}
+#nappi { 
+    font-size: 48px;
+}
+
