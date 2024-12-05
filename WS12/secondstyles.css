@@ -3,10 +3,7 @@ html {
 }
 body {
     height: 50%;
-    background-image: url("./tausta1.png");
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-size: cover;
+    background-image: url("./tausta2.png")
 }
 
 .link-container {
@@ -21,15 +18,11 @@ body {
 
 }
 
-
-
-
 a, a:link, a:visited, a:hover, a:active, a:focus {
     color: rgb(225, 171, 85) !important; 
     text-transform: uppercase;
     text-decoration: none;
 }
-
 
 footer {
     background-color: rgb(57, 56, 58);
@@ -42,19 +35,3 @@ footer {
     border-color: rgb(225, 171, 85);
     color: rgb(225, 171, 85);
 }
-
-
-      .carousel {
-        max-width: 200px; 
-        max-height: 250px; 
-        margin: 0 auto; 
-        margin-top: 60px;
-      }
-      
-      .carousel-item img {
-        height: 100%; 
-        width: 100%; 
-        object-fit: cover; 
-      }
-      
-      
