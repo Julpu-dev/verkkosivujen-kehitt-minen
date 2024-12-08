@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+body {
+    height: 50%;
+    background-image: url("./tausta3.png")
+}
+
+.link-container {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(57, 56, 58);
+    padding: 20px;
+    border-style: solid;
+    border-color:  rgb(225, 171, 85);
+
+}
+
+a, a:link, a:visited, a:hover, a:active, a:focus {
+    color: rgb(225, 171, 85) !important; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(57, 56, 58);
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(225, 171, 85);
+    color: rgb(225, 171, 85);
+}
