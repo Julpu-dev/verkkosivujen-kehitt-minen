@@ -1,3 +1,13 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 50%;
+    background-image: url(tausta5.png);
+}
+
+
 .link-container {
     display: flex;
     gap: 80px;
@@ -9,9 +19,6 @@
     border-color:  rgb(225, 171, 85);
 
 }
-
-
-
 
 a, a:link, a:visited, a:active, a:focus {
     color: rgb(225, 171, 85) !important; 
@@ -29,7 +36,7 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0,3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
 
 }
 
@@ -66,16 +73,15 @@ h2 {
     font-size: 30px;
     color: #ccc;
     cursor: pointer;
-    transition: color 0.3s;
-}
-
-.rating input:checked ~ label {
-    color: rgb(225, 171, 85); 
+    transition: color 0.3s ease;
 }
 
 .rating label:hover,
 .rating label:hover ~ label {
-    color: rgb(225, 171, 85); 
+    color: rgb(225, 171, 85);
+}
+.rating input:checked ~ label {
+    color: rgb(225, 171, 85);
 }
 
 .simple-textarea {
@@ -86,10 +92,11 @@ h2 {
     border-radius: 4px;
     font-size: 16px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     justify-content: center;
     display: block;
     margin: 0 auto;
+
 }
 
 .simple-submit-button {
@@ -106,9 +113,6 @@ h2 {
 
 }
 
-.simple-submit-button:hover {
-    background-color: ;
-}
 
 
 
