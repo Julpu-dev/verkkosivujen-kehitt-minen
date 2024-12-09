@@ -1,0 +1,125 @@
+.link-container {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(57, 56, 58);
+    padding: 20px;
+    border-style: solid;
+    border-color:  rgb(225, 171, 85);
+
+}
+
+
+
+
+a, a:link, a:visited, a:active, a:focus {
+    color: rgb(225, 171, 85) !important; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(223, 93, 27) !important;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0,3);
+
+}
+
+.simple-review-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.simple-review-form h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating input:checked ~ label {
+    color: rgb(225, 171, 85); 
+}
+
+.rating label:hover,
+.rating label:hover ~ label {
+    color: rgb(225, 171, 85); 
+}
+
+.simple-textarea {
+    width: 40%;
+    height: 120px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.simple-submit-button {
+    width: 10%;
+    padding: 12px;
+    background-color:  rgb(57, 56, 58);
+    color: rgb(225, 171, 85);
+    font-size: 16px;
+    border-style: solid;
+    border-color: rgb(225, 171, 85);
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.simple-submit-button:hover {
+    background-color: ;
+}
+
+
+
+footer {
+    background-color: rgb(57, 56, 58);
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    border-style: solid;
+    border-color: rgb(225, 171, 85);
+    color: rgb(225, 171, 85);
+}

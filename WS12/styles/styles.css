@@ -24,11 +24,17 @@ body {
 
 
 
-a, a:link, a:visited, a:hover, a:active, a:focus {
+a, a:link, a:visited, a:active, a:focus {
     color: rgb(225, 171, 85) !important; 
     text-transform: uppercase;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(223, 93, 27) !important;
+    
+}
+
 
 
 footer {
@@ -45,8 +51,8 @@ footer {
 
 
       .carousel {
-        max-width: 200px; 
-        max-height: 250px; 
+        max-width: 300px; 
+        max-height: 350px; 
         margin: 0 auto; 
         margin-top: 60px;
       }

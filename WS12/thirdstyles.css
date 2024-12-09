@@ -20,21 +20,31 @@ body {
 
 }
 
-a, a:link, a:visited, a:hover, a:active, a:focus {
+a, a:link, a:visited, a:active, a:focus {
     color: rgb(225, 171, 85) !important; 
     text-transform: uppercase;
     text-decoration: none;
 }
 
+a:hover {
+  color: rgb(223, 93, 27) !important;
+  
+}
+
 
 .container {
     display: flex;
-    gap: 20px;
-    max-width: 500px;
+    gap: 30px;
+    max-width: 1000px;
     width: 100%;
     justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
     
   }
+
+
   .column {
     flex: 1;
     padding: 10px;
@@ -54,6 +64,13 @@ a, a:link, a:visited, a:hover, a:active, a:focus {
     width: 100%;
     max-width: 300px;
     height: auto;
+  }
+
+  h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
 
 footer {
